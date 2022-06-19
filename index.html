@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>beta.art</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<noscript>Необходимо включить JS</noscript>
+
+<div class="nav">
+    <div class="container">
+        <div class="container__nav">
+            <div class="nav__logo">
+                <img class="logo" src="./img/logo-hover.png" alt="logo">
+            </div>
+            <div class="nav__link">
+                <a href="#about">Обо мне</a>
+                <a href="#works">Портфолио</a>
+                <a href="#contacts">Контакты</a>
+            </div>
+            <div class="nav__menu" onclick="onClickMenu(this)" >
+                <img src="./img/menu.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="for-rounds">
+    <img class="col-auto pink" src="./img/Ellipse 2.png">
+    <img class="col-auto pink" src="./img/Ellipse 6.png">
+    <img class="col-auto white" src="./img/Ellipse 7.png">
+    <img class="col-auto pink" src="./img/Ellipse 17.png">
+    <img class="col-auto pink" src="./img/Ellipse 9.png">
+    <img class="col-auto pink" src="./img/Ellipse 3.png">
+    <img  class="col-auto pink" src="./img/Ellipse 16.png">
+    <img class="col-auto white" src="./img/Ellipse 18.png">
+    <img class="col-auto pink" src="./img/Ellipse 6.png">
+    <img class="col-auto pink" src="./img/Ellipse 3.png">
+    <img class="col-auto pink" src="./img/Ellipse 2.png">
+    <img class="col-auto white" src="./img/Ellipse 7.png">
+    <img class="col-auto white" src="./img/Ellipse 24.png">
+    <img class="col-auto pink" src="./img/Ellipse 3.png">
+    <img class="col-auto pink" src="./img/Ellipse 6.png">
+    <img class="col-auto pink" src="./img/Ellipse 22.png">
+    <img class="col-auto pink" src="./img/Ellipse 9.png">
+    <img class="col-auto bink" src="./img/Ellipse 3.png">
+    <img class="col-auto white" src="./img/Ellipse 24.png">
+    <img class="col-auto pink" src="./img/Ellipse 20.png">
+    <img class="col-auto bink" src="./img/Ellipse 26.png">
+    <img class="col-auto pink" src="./img/Ellipse 21.png">
+    <img class="col-auto pink" src="./img/Ellipse 2.png">
+    <img  class="col-auto pink" src="./img/Ellipse 16.png">
+    <img class="col-auto pink" src="./img/Ellipse 3.png">
+    <img class="col-auto pink" src="./img/Ellipse 20.png">
+    <img class="col-auto pink" src=".//img/Ellipse 12.png">
+    <img class="col-auto pink" src="./img/Ellipse 3.png">
+    <img class="col-auto pink" src="./img/Ellipse 2.png">
+    <img class="col-auto pink" src="./img/Ellipse 11.png">
+    <img class="col-auto white" src="./img/Ellipse 7.png">
+    <img class="col-auto white" src="./img/Ellipse 24.png">
+    <img class="col-auto pink" src="./img/Ellipse 9.png">
+    <img class="col-auto white" src="./img/Ellipse 18.png">
+    <img class="col-auto pink" src="./img/Ellipse 3.png">
+    <img class="col-auto pink" src="./img/Ellipse 20.png">
+    <img class="col-auto  pink" src="./img/Ellipse 26.png">
+</div>
+
+<div class="nav-ada">
+    <div class="container">
+        <div id="okno1" class="container__nav-ada">
+            <div class="nav__link-ada">
+                <a class="a-ada" href="#about">Обо мне</a>
+                <a class="a-ada" href="#works">Портфолио</a>
+                <a class="a-ada" href="#contacts">Контакты</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section1" >
+    <div class="container">
+        <section onclick="onClickOut(this)"class="container__section1">
+            <div class="section1__textblock">
+                <h1>Разработка дизайна</h1>
+                <p>В современном мире каждый имеет доступ к неверо-ятному количеству информации. И для упрощения работы с ней данные визуализируют. Задача web-дизайнера — то есть моя задача — привлечь внимание к интересующей пользователя информации и обеспечить работу максимально комфортно.</p> <button onclick="onClickButton(this)" class="section1__button">Обсудить проект</button>
+            </div>
+            <div class="section1__img">
+                <img class="WWW" src="./img/WWW.png" alt="animation">
+                <img class="w2" src="./img/абс.png">
+            </div>
+        </section>
+    </div>
+</div>
+
+<div id="okno-block" class="okno">
+    <div id="d" class="container">
+        <div class="container__okno-block">
+            <span class="krestik" onclick="onClickKrestik(this)">&times;</span>
+            <h1>Получить консультацию</h1>
+            <input type="text" placeholder="Имя">
+            <input type="text" pattern="[0-9]{11}" placeholder="Телефон">
+            <input type="email" placeholder="Почта">
+            <button type="submit">Отправить</button>
+        </div>
+    </div>
+</div>
+
+<div class="section2">
+    <div class="container">
+        <section class="container__section2">
+            <div class="section2__img">
+                <img class="p1" src="./img/photo.jpg" alt="photo of designer">
+                <img class="p2" src="./img/photo2.jpg" alt="photo of designer">
+            </div>
+            <div class="section2__textblock">
+                <h1 id="about">Татьяна Белова</h1>
+                <p>В настоящий момент я студентка кафедры компьютерного дизайна, а на протяжении жизни — просто человек, для которого творчество — это и есть вся жизнь. Сейчас я работаю с 2D и 3D графикой, продолжаю изучать UX и UI дизайн и занимаюсь web-разработкой. Считаю, что каждая работа должна выполнять поставленные задачи, быть эсте-тичной и доступной. Сайт, в частности, ещё и удобным в использовании, поэтому при разработке уделяю особое внимание структуре и логике взаимодействия, а также следую современным тенденциям.</p>
+            </div>
+        </section>
+    </div>
+</div>
+
+<div class="section3">
+    <div class="container">
+        <div class="container__section3">
+            <h1>Услуги</h1>
+            <div class="section3__for-blocks">
+                <div class="section3__block">
+                    <h2>Дизайн печатной продукции</h2>
+                    <p>Оформление плакатов, бро-шюр, иллюстраций, рекламных баннеров, буклетов, визиток...</p>
+                </div>
+                <div class="section3__block">
+                    <h2>Проектирование и вёрстка сайтов</h2>
+                    <p>Обсуждение стилистики, цели и задач будущего сайта, создание макета и вёрстка...</p>
+                </div>
+                <div class="section3__block">
+                    <h2>Разработка дизайна бренда</h2>
+                    <p>Работа над проектом от идеи до реализации: создание логотипа, фирменного стиля...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section4">
+    <div class="container">
+        <div class="container__section4">
+            <div class="section4__list1">
+                <p>• На связи практически в любое время</p>
+                <p>• Принимаю все конструктивные правки</p>
+                <p>• Ответственно отношусь к срокам</p>
+            </div>
+            <div class="section4__list2">
+                <p>• Аргументирую свои решения</p>
+                <p>• Предлагаю несколько вариантов</p>
+                <p>• Люблю своё дело</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 
+    container__section5 = slider
+    section5__for-blocks = img
+     -->
+
+<div class="section5">
+    <div class="container">
+        <div class="container__section5">
+            <h1 id="works">Портфолио</h1>
+            <div class="slider">
+                <div class="slider-line">
+                    <!-- фотка первая: -->
+                    <div class="myimg">
+                        <div class="section5__for-blocks">
+                            <div class="section5__block1">
+                                <h3>Halloween</h3>
+                                <p>Группа иконок</p>
+                            </div>
+                            <div class="section5__block2">
+                                <h3>Dragons</h3>
+                                <p>Интерактивная афиша</p>
+                            </div>
+                            <div class="section5__block3">
+                                <h3>Music Fest</h3>
+                                <p>Серия плакатов</p>
+                            </div>
+                            <div class="section5__block4">
+                                <h3>Gamix-G</h3>
+                                <p>Адаптив макета и верстка</p>
+                            </div>
+                            <div class="section5__block5">
+                                <h3>Social network</h3>
+                                <p>Инфографика</p>
+                            </div>
+                            <div class="section5__block6">
+                                <h3>Hat with cat ears</h3>
+                                <p>Иллюстрация</p>
+                            </div>
+                            <div class="section5__block7">
+                                <h3>Travelling</h3>
+                                <p>Рекламные баннеры</p>
+                            </div>
+                            <div class="section5__block8">
+                                <h3>Orbit</h3>
+                                <p>Интерактивная реклама</p>
+                            </div>
+                            <div class="section5__block9">
+                                <h3>Alivio</h3>
+                                <p>Вёрстка по макету</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- фотка вторая: -->
+                    <div class="myimg">
+                        <div class="section5__for-blocks">
+                            <div class="section5__block1">
+                                <h3>Halloween</h3>
+                                <p>Группа иконок</p>
+                            </div>
+                            <div class="section5__block2">
+                                <h3>Dragons</h3>
+                                <p>Интерактивная афиша</p>
+                            </div>
+                            <div class="section5__block3">
+                                <h3>Music Fest</h3>
+                                <p>Серия плакатов</p>
+                            </div>
+                            <div class="section5__block4">
+                                <h3>Gamix-G</h3>
+                                <p>Адаптив макета и верстка</p>
+                            </div>
+                            <div class="section5__block5">
+                                <h3>Social network</h3>
+                                <p>Инфографика</p>
+                            </div>
+                            <div class="section5__block6">
+                                <h3>Hat with cat ears</h3>
+                                <p>Иллюстрация</p>
+                            </div>
+                            <div class="section5__block7">
+                                <h3>Travelling</h3>
+                                <p>Рекламные баннеры</p>
+                            </div>
+                            <div class="section5__block8">
+                                <h3>Orbit</h3>
+                                <p>Интерактивная реклама</p>
+                            </div>
+                            <div class="section5__block9">
+                                <h3>Alivio</h3>
+                                <p>Вёрстка по макету</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- фотка третья: -->
+                    <div class="myimg">
+                        <div class="section5__for-blocks">
+                            <div class="section5__block1">
+                                <h3>Halloween</h3>
+                                <p>Группа иконок</p>
+                            </div>
+                            <div class="section5__block2">
+                                <h3>Dragons</h3>
+                                <p>Интерактивная афиша</p>
+                            </div>
+                            <div class="section5__block3">
+                                <h3>Music Fest</h3>
+                                <p>Серия плакатов</p>
+                            </div>
+                            <div class="section5__block4">
+                                <h3>Gamix-G</h3>
+                                <p>Адаптив макета и верстка</p>
+                            </div>
+                            <div class="section5__block5">
+                                <h3>Social network</h3>
+                                <p>Инфографика</p>
+                            </div>
+                            <div class="section5__block6">
+                                <h3>Hat with cat ears</h3>
+                                <p>Иллюстрация</p>
+                            </div>
+                            <div class="section5__block7">
+                                <h3>Travelling</h3>
+                                <p>Рекламные баннеры</p>
+                            </div>
+                            <div class="section5__block8">
+                                <h3>Orbit</h3>
+                                <p>Интерактивная реклама</p>
+                            </div>
+                            <div class="section5__block9">
+                                <h3>Alivio</h3>
+                                <p>Вёрстка по макету</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="arrows">
+    <div class="container">
+        <div class="container__arrows">
+            <button class="arrows-button slider-prev"><img src="./img/стрелкавлево.png" alt="Стрелка влево"></button>
+            <img class="points" src="./img/слайдер.png">
+            <button class="arrows-button slider-next"><img src="./img/стрелкавправо.png" alt="Стрелка вправо"></button>
+        </div>
+    </div>
+</div>
+
+<div class="section6">
+    <div class="container">
+        <div class="container__section6">
+            <div class="section6__menu">
+                <ul>
+                    <li data-f="all">All</li>
+                    <li data-f="darkpink" class="text-darkpink">Dark Pink</li>
+                    <li data-f="lightpink" class="text-lightpink">Light Pink</li>
+                    <li data-f="whiteb" class="text-white">White</li>
+                    <li data-f="grey" class="text-grey">Grey</li>
+                </ul>
+            </div>
+            <div class="block-cover">
+                <div class="col-auto box darkpink"></div>
+                <div class="col-auto box lightpink"></div>
+                <div class="col-auto box whiteb"></div>
+                <div class="col-auto box grey"></div>
+                <div class="col-auto box darkpink"></div>
+                <div class="col-auto box lightpink"></div>
+                <div class="col-auto box whiteb"></div>
+                <div class="col-auto box grey"></div>
+                <div class="col-auto box darkpink"></div>
+                <div class="col-auto box lightpink"></div>
+                <div class="col-auto box whiteb"></div>
+                <div class="col-auto box grey"></div>
+                <div class="col-auto box darkpink"></div>
+                <div class="col-auto box lightpink"></div>
+                <div class="col-auto box whiteb"></div>
+                <div class="col-auto box grey"></div>
+                <div class="col-auto box darkpink"></div>
+                <div class="col-auto box lightpink"></div>
+                <div class="col-auto box whiteb"></div>
+                <div class="col-auto box grey"></div>
+                <div class="col-auto box darkpink"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="nav-bottom">
+    <div class="container">
+        <div class="container__nav-bottom">
+            <a href="#about">Обо мне</a>
+            <a href="#works">Портфолио</a>
+            <a href="#contacts">Контакты</a>
+        </div>
+    </div>
+</div> -->
+
+
+
+<div class="footer">
+    <div class="container">
+        <div class="container__footer" id="contacts">
+            <img src="./img/@.svg" alt="e-mail">
+            <img src="./img/тг.svg" alt="Telegram">
+            <img src="./img/ватсап.svg" alt="WhatsApp">
+            <img src="./img/вк.svg" alt="VKontakte">
+            <img src="./img/инст.svg" alt="Instagram">
+        </div>
+    </div>
+</div>
+
+
+
+<script src="./main.js"></script>
+
+</body>
+</html>
